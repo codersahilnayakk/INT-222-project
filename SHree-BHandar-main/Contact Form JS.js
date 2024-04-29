@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const btn = document.querySelector('.btn');
             btn.innerText = 'Sending...';
 
-            const serviceID = 'service_zgq58qi'; // Update with your EmailJS service ID
-            const templateID = 'template_hl632gn'; // Update with your EmailJS template ID
+            const serviceID = 'service_fmw54yp'; // Update with your EmailJS service ID
+            const templateID = 'template_2wilygi'; // Update with your EmailJS template ID
 
             const formData = {
                 from_name: document.getElementById('name').value,
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Initialize EmailJS
-emailjs.init('XtsX58k1Pp56-m8ob'); // Update with your EmailJS user ID
+emailjs.init('Bn66H1avYAslh4Uzz'); // Update with your EmailJS user ID
 
 function validateForm() {
     let isValid = true;
